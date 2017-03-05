@@ -1,6 +1,6 @@
 include_defs('//BUCKAROO_DEPS')
 
-prebuilt_cxx_header(
+prebuilt_cxx_library(
   name = 'boost-assign',
   header_only = True,
   header_namespace = 'boost',
